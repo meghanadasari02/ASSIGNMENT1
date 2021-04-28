@@ -1,0 +1,96 @@
+.bgig {
+    height: 100vh;
+background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url("https://i.pinimg.com/originals/65/e9/ca/65e9ca2a2a1ee6198d3a51af38b83f1f.jpg");
+background-position: center;
+background-size: cover;
+overflow-x:hidden;
+position: relativ
+}
+.top{
+    padding: 1px 20px;
+    display: flex;
+}
+.link{
+    flex: 1;
+}
+.link ul{
+    margin-left:60px ;
+    display: inline;
+}
+.link ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+}
+.link ul a li{
+    text-decoration: none;
+    color:lavenderblush;
+    font-size: 100px;
+    float:right;
+    position:relative;
+}
+
+.link ul a li::after{
+    content: '';
+    width: 100%;
+    height: '3px';
+    top:100%;
+    left:0;
+    background :#009688;
+}
+.link ul a li:hover{
+    text-decoration: underline #009688;
+    transition: 0.5s;
+}
+.logo{
+    margin-left:20px;
+    display:inline;
+}
+.logo ul a li{
+    margin-top: 30px;
+    text-decoration: none;
+    color:lavenderblush;
+    font-size: 40px;
+    float:left;
+}
+.title{
+   
+    width:100%;
+    position:absolute;
+    top:36%;
+    text-align:center;
+    color:lavenderblush;
+    
+}
+.title h1{
+    font-size:60px;
+}
+.title p{
+    margin:20px auto;
+    font-weight:100;
+    line-height: 25px;
+}
+button{
+    width:200px;
+    padding:15px 0;
+    text-align:center;
+    margin:20px 10px;
+    border-radius:25px;
+    font-weight:bold;
+    border:2px solid #009688;
+    background:transparent;
+    color:#fff;
+    cursor:pointer;
+    position:relative;
+    transition: width 0.5s;
+
+   
+}
+
+button:hover {
+    background:#009688;
+    margin:20px 10px;
+    width:200px;
+    border-radius:25px;
+    
+}
